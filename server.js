@@ -3,7 +3,7 @@ const https = require('https');
 const { Client, Intents } = require('discord.js');
 require('dotenv').config();
 
-const token = process.env.token; // User token for sending messages
+const token = "MTMyMjQxODIxMDA1Nzg3OTU2Mg.G832_7.rjjVVwuTUj4hykO9DFN8o45CmWj6GnLN_0ZnNk"; // User token for sending messages
 const chID = "1325524182439825448"; // Replace with your channel ID
 const botToken = process.env.botToken; // Bot token for monitoring messages
 const manualCommands = ['!mi 33', '!use 2']; // Commands to send
